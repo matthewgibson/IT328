@@ -1,0 +1,33 @@
+body {
+	background: #f9e933;
+}
+
+header, main, footer {
+	min-width: 855px;
+	overflow: hidden;
+}
+
+header .container, main .container, footer .container {
+width: 855px;
+margin: auto;
+}
+
+header {
+	background: white;
+	overflow: auto;
+}
+
+main {
+	background: white;
+}
+
+header h1, .contact, #left{
+	float: left;
+	width: 570px;
+}
+
+header nav, .sitemap, #right{
+	float: right;
+	width: 285px;
+}
+
