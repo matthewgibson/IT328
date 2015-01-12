@@ -1,5 +1,6 @@
 body {
 	background: #f9e933;
+	font-family: "Droid sans";
 }
 
 header, main, footer {
@@ -31,3 +32,6 @@ header nav, .sitemap, #right{
 	width: 285px;
 }
 
+h1, h2, h3, h4 {
+	font-family: Ubuntu;
+}
