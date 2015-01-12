@@ -14,8 +14,10 @@ margin: auto;
 }
 
 header {
-	background: white;
-	overflow: auto;
+  padding: 25px 0 25px 0;
+  background: white;
+  overflow: auto;
+  border-bottom: 1px solid #ddd;
 }
 
 main {
@@ -32,6 +34,46 @@ header nav, .sitemap, #right{
 	width: 285px;
 }
 
-h1, h2, h3, h4 {
-	font-family: Ubuntu;
+
+h5 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.25em;
+    margin-bottom: 20px;
 }
+footer {
+    border-top: 1px solid #ddd;
+    padding: 40px 0 20px 0;
+}
+
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-style: italic;
+  font-size: 3em;
+  color: #b33;
+  float: left;
+  width: 570px;
+}
+
+#amaze {
+	color: #b33;
+	font-style: italic;
+}
+a { 
+	color: #f00; 
+	text-decoration: none; 
+	font-weight: bold; 
+} 
+
+h2, h3{
+	font-weight: bold;
+	font-size: 1.5em;
+	padding-top: 5%;
+}
+h2{
+	font-size: 2em;
+	font-weight: bold;
+}
+
+
+
