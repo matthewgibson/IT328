@@ -9,7 +9,7 @@ header, main, footer {
 }
 
 header .container, main .container, footer .container {
-width: 855px;
+max-width: 855px;
 margin: auto;
 }
 
@@ -24,12 +24,22 @@ main {
 	background: white;
 }
 
-header h1, .contact, #left{
+header h1, #left{
 	float: left;
 	width: 570px;
 }
 
-header nav, .sitemap, #right{
+footer .contact {
+	float: left;
+	width: 570px;
+}
+
+footer .sitemap {
+	float: right;
+	width: 285px;
+}
+
+header nav, #right{
 	float: right;
 	width: 285px;
 }
@@ -55,7 +65,7 @@ h1 {
   width: 570px;
 }
 
-#amaze {
+.amaze {
 	color: #b33;
 	font-style: italic;
 }
@@ -69,11 +79,17 @@ h2, h3{
 	font-weight: bold;
 	font-size: 1.5em;
 	padding-top: 5%;
+	margin-bottom: 20px;
 }
 h2{
 	font-size: 2em;
 	font-weight: bold;
 }
 
+.siteLeft {
+	float: left;
+}
 
-
+.siteRight {
+	float: right;
+}
